@@ -1,0 +1,24 @@
+//Helvetica = Inter, Avenir = roboto
+$heading-font: 'Inter', sans-serif;
+$content-font: 'Roboto', sans-serif;
+$txt-color: #212353;
+$primary-color-blue: #9C69E2;
+$primary-color-pink: #F063B8;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $content-font;
+    font-size: 18px;
+    color: $txt-color;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: $txt-color;
+}
+ul {
+    list-style: none;
+}
